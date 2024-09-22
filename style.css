@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.whole-todo{
+        margin: 20px 100px 0px;
+}
+
+.delete-icon{
+    color: black;
+    border: none;
+    font-size: 25px;
+    margin: 0px 0px 0px 15px;
+}
+
+.edit-icon{
+    color: red;
+    margin: 0px 15px;
+    font-size: 25px;
+ }
+
+
+.btn{  
+     border: none; 
+    color: black; 
+    background-color: transparent; 
+ }  
+
+
+.input-task{
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+.add-btn{
+    padding: 3px 5px;
+    font-size: 17px;
+} 
+
+.heading{
+    text-align: center;
+    padding: 8px 0px;
+    letter-spacing: 4px;
+    font-size: 100px;
+   
+
+}
+
+.heading-div{
+    background-color: blueviolet;
+     background-color: aqua;
+    border: 3px solid black;
+}
+
+ol{
+     text-align: center;
+    font-size: 35px; 
+     padding: 5px 450px; 
+}
+
+.task-div{
+    margin: 20px 0px ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.todo-list{
+    margin: 0px 0px 12px 0px;
+}
